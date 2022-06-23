@@ -112,7 +112,7 @@ public class ControllerServlet extends HttpServlet {
 
     private void creditos(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("Creditos.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("creditosAlunos.jsp");
         dispatcher.forward(request, response);
     }
 
